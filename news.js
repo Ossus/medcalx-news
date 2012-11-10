@@ -14,9 +14,16 @@ var _main = angular.module('MedCalcNews', []);
 /**
  *	The news controller.
  */
-function NewsController($scope, $http) {
+function NewsController($scope, $http, $location) {
 	$scope.newsitems = [];
 	$scope.didLoad = false;
+	
+	// the last-time-read date can be passed as URL path component in epoch time (/news.html#/1234567890)
+	var ref_date = 0;
+	var path = ($location.path().length > 1) ? $location.path().substr(1) : null;
+	if (path) {
+		ref_date = (new Date(1000 * path)).getTime();
+	}
 	
 	// this method starts loading the news
 	$scope.fetchNews = function() {
@@ -28,6 +35,15 @@ function NewsController($scope, $http) {
 				items = [];
 				for (var i = 0; i < json.data.data.length; i++) {
 					item = json.data.data[i];
+					
+					// is this a new item?
+					if (ref_date > 0) {
+						var my_date = Date.parse(item.created_at);
+						item.is_new = (my_date > ref_date);
+					}
+					else {
+						item.is_new = false;
+					}
 					
 					// do we have mentions?
 					if ('entities' in item && 'mentions' in item.entities && item.entities.mentions.length > 0) {

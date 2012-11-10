@@ -30,7 +30,7 @@
 		
 		<!-- news entries -->
 		<div class="parent" style="display:none;" ng-show="didLoad">
-			<div class="newsitem" ng-repeat="news in newsitems">
+			<div class="newsitem unread-{{ news.is_new }}" ng-repeat="news in newsitems" ng-click="news.is_new=false">
 				<span class="date">{{ news.created_at | date:'mediumDate' }}</span>
 				<span ng-bind-html-unsafe="news.html"></span>
 			</div>
