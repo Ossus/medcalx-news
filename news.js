@@ -18,7 +18,7 @@ function NewsController($scope, $http, $location) {
 	$scope.newsitems = [];
 	$scope.didLoad = false;
 	
-	// the last-time-read date can be passed as URL path component in epoch time (/news.html#/1234567890)
+	// the last-time-read date can be passed as URL path component in epoch time (/index.html#/1234567890)
 	var ref_date = 0;
 	var path = ($location.path().length > 1) ? $location.path().substr(1) : null;
 	if (path) {
@@ -35,6 +35,11 @@ function NewsController($scope, $http, $location) {
 				items = [];
 				for (var i = 0; i < json.data.data.length; i++) {
 					item = json.data.data[i];
+					
+					// was this deleted?
+					if (item.is_deleted) {
+						continue;
+					}
 					
 					// is this a new item?
 					if (ref_date > 0) {
