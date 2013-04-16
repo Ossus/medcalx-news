@@ -17,7 +17,7 @@ a:visited { color: #757575; text-decoration: none; }
 
 .parent { border: 1px solid #a1a7ad; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
 
-.newsitem { padding: 0.75em 20px; word-wrap: break-word; border-bottom: 1px solid #cacaca; border-top: 1px solid rgba(255, 255, 255, 0.8); background-color: white; }
+.newsitem { padding: 0.75em 20px; word-wrap: break-word; border-bottom: 1px solid #cacaca; border-top: 1px solid rgba(255, 255, 255, 0.8); background-color: white; -webkit-tap-highlight-color: transparent; }
 .newsitem:first-child { border-top-color: rgba(0, 0, 0, 0.1); border-top-left-radius: 5px; border-top-right-radius: 5px; }
 .newsitem:last-child { border-bottom: none; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
 .newsitem.unread-true { padding-left: 18px; border-left: 2px solid #4ea3df; -webkit-box-shadow: inset 5px 0 5px -5px rgba(78, 163, 223, 0.75); }
