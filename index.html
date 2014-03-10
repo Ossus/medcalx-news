@@ -11,13 +11,13 @@
 <body>
 	
 	<!-- header -->
-	<div id="header">
+	<header>
 		<div id="twitter_follow">
 			<a href="https://twitter.com/medcalc" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @medcalc</a>
 		</div>
 		<span id="tagline">The latest news</span>
 		<a href="https://alpha.app.net/medcalc"><img src="logo.png" alt="" /></a>
-	</div>
+	</header>
 	
 	<div id="news" ng-controller="NewsController">
 		
@@ -30,15 +30,15 @@
 		
 		<!-- news entries -->
 		<div class="parent" style="display:none;" ng-show="didLoad">
-			<div class="newsitem unread-{{ news.is_new }}" ng-repeat="news in newsitems" ng-click="news.is_new=false">
+			<p class="newsitem unread-{{ news.is_new }}" ng-repeat="news in newsitems" ng-click="news.is_new=false">
 				<span class="date">{{ news.created_at | date:'mediumDate' }}</span>
-				<span ng-bind-html-unsafe="news.html"></span>
-			</div>
+				<span class="entry" ng-bind-html-unsafe="news.html"></span>
+			</p>
 			
-			<div class="newsitem">
+			<p class="newsitem">
 				<span class="date">Aug 22, 2012</span>
 				<span>Older news can be found <a href="https://twitter.com/medcalc">in our Twitter feed</a>.</span>
-			</div>
+			</p>
 		</div>
 	</div>
 	
