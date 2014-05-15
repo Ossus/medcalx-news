@@ -4,7 +4,7 @@ html, body { margin: 0; padding: 0; font: 17px/23px "Helvetica Neue", Helvetica,
 a:link, a:active, a:visited { color: #1e6e82; text-decoration: none; }
 
 header { height: 60px; padding: 20px 15px; clear: right; background-color: #6ebbc4; }
-header #medcalc { display: block; width: 130px; height: 100px; margin-top: -20px; background: url("logo.png") center center no-repeat; }
+header #medcalc { display: block; width: 130px; height: 100px; margin-top: -20px; background: url("logo.png") top left no-repeat; }
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) { header #medcalc { background-image: url("logo@2x.png"); background-size: 130px 100px; } }
 
 #tagline { clear: right; float: right; margin: 4px 1px 0 0; font-size: 0.85em; font: -apple-system-footnote; }
