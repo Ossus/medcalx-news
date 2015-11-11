@@ -3,13 +3,14 @@
  *  Created by Pascal Pfiffner, 2012-11-09
  */
 
-$color:			rgb(30,110,130);
-$bgcolor:		rgb(110,187,196);
-$lightcolor:	rgb(220,220,220);
+$color:         rgb(4,120,136);
+$bgcolor:       rgb(4,120,136);
+$ondrkcolor:    white; //rgb(129,187,194);
+$lightcolor:    rgb(220,220,220);
 
 html, body {
 	margin: 0; padding: 0;
-	font: 17px/23px "Helvetica Neue", Helvetica, Arial, sans-serif; font: -apple-system-body;
+	font: 17px/23px -apple-system, "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif; font: -apple-system-body;
 	line-height: 1.4;
 	background-color: white;
 }
@@ -25,15 +26,18 @@ header {
 	height: 60px;
 	padding: 20px 15px;
 	clear: right;
-	background-color: $bgcolor;
+	color: $ondrkcolor; background-color: $bgcolor;
 	
 	#medcalc {
 		display: block;
 		width: 130px; height: 100px;
 		margin-top: -20px;
 		background: url('logo.png') top left no-repeat;
-		@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) {
+		@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5), screen and (min-resolution: 192dpi) {
 			background-image: url('logo@2x.png'); background-size: 130px 100px;
+		}
+		@media screen and (-webkit-min-device-pixel-ratio: 2.5), screen and (min-device-pixel-ratio: 2.5), screen and (min-resolution: 320dpi) {
+			background-image: url('logo@3x.png'); background-size: 130px 100px;
 		}
 	}
 }
