@@ -47,23 +47,23 @@
 		{
 			"canonical_url": "https://twitter.com/MedCalc/status/664424758952480769",
 			"created_at": "2015-11-17T04:10:00Z",
-			"html": "Embrace the X! <b>MedCalc is now MedCalX</b>, a new app with free unlock for existing users, and brings you “workflows”: <a href=\"http://store.medcalx.ch/\" target=\"_blank\">http://store.medcalx.ch/</a>",
+			"html": "Embrace the X! <b>MedCalc is now MedCalX</b>, a new app with free unlock for existing users, and brings you “workflows”: <a href=\"https://store.medcalx.ch/\" target=\"_blank\">https://store.medcalx.ch/</a>",
 			"source": {
 				"client_id": "twitter.com",
 				"name": "Twitter"
 			},
-			"text": "Embrace the X! MedCalc is now MedCalX, a new app with free unlock for existing users, and brings you “workflows”: http://store.medcalx.ch/",
+			"text": "Embrace the X! MedCalc is now MedCalX, a new app with free unlock for existing users, and brings you “workflows”: https://store.medcalx.ch/",
 			"user": {}
 		},
 		{
 			"canonical_url": "https://twitter.com/MedCalc/status/664467132755890176",
 			"created_at": "2015-11-11T08:38:42Z",
-			"html": "Wondering why we’re yet again pushing a new app instead of an update? 🤔 This time for trademark reasons: <a href=\"http://medcalx.ch/support.html#namechange\" target=\"_blank\">http://medcalx.ch/support.html#namechange</a>",
+			"html": "Wondering why we’re yet again pushing a new app instead of an update? 🤔 This time for trademark reasons: <a href=\"https://medcalx.ch/support.html#namechange\" target=\"_blank\">medcalx.ch/support.html#namechange</a>",
 			"source": {
 				"client_id": "twitter.com",
 				"name": "Twitter"
 			},
-			"text": "Wondering why we’re yet again pushing a new app instead of an update? 🤔 This time for trademark reasons: http://medcalx.ch/support.html#namechange",
+			"text": "Wondering why we’re yet again pushing a new app instead of an update? 🤔 This time for trademark reasons: https://medcalx.ch/support.html#namechange",
 			"user": {}
 		},
 		{
@@ -210,13 +210,13 @@
 					{
 						"len": 22,
 						"pos": 84,
-						"text": "http://t.co/6MS53qOsja",
-						"url": "http://t.co/6MS53qOsja"
+						"text": "https://t.co/6MS53qOsja",
+						"url": "https://t.co/6MS53qOsja"
 					}
 				],
 				"mentions": []
 			},
-			"html": "<span itemscope=\"https://app.net/schemas/Post\">This well-researched article on MobiHealthNews about medical apps features MedCalc: <a href=\"http://t.co/6MS53qOsja\">http://t.co/6MS53qOsja</a></span>",
+			"html": "<span itemscope=\"https://app.net/schemas/Post\">This well-researched article on MobiHealthNews about medical apps features MedCalc: <a href=\"https://t.co/6MS53qOsja\">https://t.co/6MS53qOsja</a></span>",
 			"id": "30193978",
 			"machine_only": false,
 			"num_replies": 0,
@@ -228,7 +228,7 @@
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
-			"text": "This well-researched article on MobiHealthNews about medical apps features MedCalc: http://t.co/6MS53qOsja",
+			"text": "This well-researched article on MobiHealthNews about medical apps features MedCalc: https://t.co/6MS53qOsja",
 			"thread_id": "30193978",
 			"user": {}
 		},
