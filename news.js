@@ -27,7 +27,7 @@ function NewsController($scope, $http, $location) {
 	
 	// this method starts loading the news
 	$scope.fetchNews = function() {
-		$http.get('https://alpha-api.app.net/stream/0/users/@medcalc/posts')
+		$http.get('./posts.json')
 		.then(function(json) {
 			
 			// filter out @-replies
@@ -80,6 +80,4 @@ function NewsController($scope, $http, $location) {
 	
 	$scope.fetchNews();
 }
-
-
 
