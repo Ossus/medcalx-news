@@ -1,11 +1,18 @@
 /** MedCalc Newsfeed Styles Created by Pascal Pfiffner, 2012-11-09 */
-html, body { margin: 0; padding: 0; font: 17px/23px -apple-system, "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif; font: -apple-system-body; line-height: 1.4; background-color: white; }
+:root { color-scheme: light dark; --background-color: white; --separator-color: rgb(197,198,200); --news-date-color: rgba(0,0,0,0.6); }
+
+@media (prefers-color-scheme: dark) { :root { --background-color: black; --separator-color: rgb(49,50,54); --news-date-color: rgba(255,255,255,0.6); } }
+
+html, body { margin: 0; padding: 0; font: 17px/23px -apple-system, "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif; font: -apple-system-body; line-height: 1.4; background-color: var(--background-color); }
 
 a:link, a:active, a:visited { color: #047888; text-decoration: none; }
 
 header { height: 60px; padding: 20px 15px; clear: right; color: white; background-color: #047888; }
+
 header #medcalc { display: block; width: 130px; height: 100px; margin-top: -20px; background: url("logo.png") top left no-repeat; }
+
 @media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5), screen and (min-resolution: 192dpi) { header #medcalc { background-image: url("logo@2x.png"); background-size: 130px 100px; } }
+
 @media screen and (-webkit-min-device-pixel-ratio: 2.5), screen and (min-device-pixel-ratio: 2.5), screen and (min-resolution: 320dpi) { header #medcalc { background-image: url("logo@3x.png"); background-size: 130px 100px; } }
 
 #tagline { clear: right; float: right; margin: 4px 1px 0 0; font-size: 0.85em; font: -apple-system-footnote; }
@@ -16,7 +23,10 @@ header #medcalc { display: block; width: 130px; height: 100px; margin-top: -20px
 
 #news { padding: 0 0 20px; }
 
-.newsitem { margin: 0; padding: 0.85em 15px; word-wrap: break-word; background: -webkit-linear-gradient(gainsboro, gainsboro 50%, transparent 50%) top right/100% 1px no-repeat; background: linear-gradient(gainsboro, gainsboro 50%, transparent 50%) top right/100% 1px no-repeat; -webkit-tap-highlight-color: transparent; }
+.newsitem { margin: 0; padding: 0.85em 15px; word-wrap: break-word; background: linear-gradient(var(--separator-color), var(--separator-color) 50%, transparent 50%) top right/100% 1px no-repeat; -webkit-tap-highlight-color: transparent; }
+
 .newsitem:first-child { background: none; }
-.newsitem .date { float: right; margin: 0 0 0.5em 0.75em; font-size: 0.85em; font: -apple-system-footnote; color: rgba(0, 0, 0, 0.6); }
+
+.newsitem .date { float: right; margin: 0 0 0.5em 0.75em; font-size: 0.85em; font: -apple-system-footnote; color: var(--news-date-color); }
+
 .newsitem.unread-true .date { color: #40a0c9; }
