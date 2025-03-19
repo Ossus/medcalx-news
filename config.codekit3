@@ -17,6 +17,14 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
 	"/favicon.png": {
 		"ft": 32768,
 		"iS": 1140,
