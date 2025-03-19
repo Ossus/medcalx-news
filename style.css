@@ -19,8 +19,6 @@ header #medcalc { display: block; width: 130px; height: 100px; margin-top: -20px
 
 #loader { padding: 30px 15px; text-align: center; color: rgba(0, 0, 0, 0.75); }
 
-#twitter_follow { float: right; width: 144px; }
-
 #news { padding: 0 0 20px; }
 
 .newsitem { margin: 0; padding: 0.85em 15px; word-wrap: break-word; background: linear-gradient(var(--separator-color), var(--separator-color) 50%, transparent 50%) top right/100% 1px no-repeat; -webkit-tap-highlight-color: transparent; }

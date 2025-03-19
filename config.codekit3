@@ -7,7 +7,7 @@
 		"uuidString": "212CB707-8583-4684-84D7-E67710716ED3"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "32147",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -23,8 +23,8 @@
 		"oA": 0,
 		"oAP": "/favicon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -42,8 +42,8 @@
 		"oA": 0,
 		"oAP": "/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -53,8 +53,8 @@
 		"oA": 0,
 		"oAP": "/logo@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -64,8 +64,8 @@
 		"oA": 0,
 		"oAP": "/logo@3x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -75,8 +75,8 @@
 		"oA": 0,
 		"oAP": "/media/v3-tease-2014-02-19.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -143,14 +143,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 2,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style.css",
 		"oF": 2,
 		"oS": 2,
-		"uL": 1
+		"sct": 1
 		}
 	},
 "hooks": [
@@ -162,7 +162,8 @@
 	"displayValue": "medcalc-news",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-kahn",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 764083372.42954898
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -597,6 +598,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -701,6 +703,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-param-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"dot-location": {
 			"active": 0,
 			"optionString": "'object'"
@@ -752,6 +758,10 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
+			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -929,6 +939,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -954,6 +968,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1047,6 +1065,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -1253,6 +1275,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1457,6 +1483,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-named-capture-group": {
 			"active": 0,
 			"optionString": ""
@@ -1472,6 +1502,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2081,7 +2115,6 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -2150,13 +2183,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 2,
+		"emitCharset": 1,
 		"outputStyle": 2,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
@@ -2221,6 +2254,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /.sass-cache",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
