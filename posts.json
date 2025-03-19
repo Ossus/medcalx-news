@@ -1,6 +1,59 @@
 {
 	"data": [
 		{
+			"canonical_url": "https://twitter.com/MedCalc/status/1180711348826591233",
+			"created_at": "2019-10-06T06:08:00Z",
+			"html": "🆙 Join the Dark Side! MedCalX version 3.4 is out now, with full <b>Dark Mode support</b> on iOS 13 and newer.",
+			"source": {
+				"client_id": "ch.ossus.medcalx-news-posts",
+				"name": "MedCalX News"
+			},
+			"text": "🆙 Join the Dark Side! MedCalX version 3.4 is out now, with full Dark Mode support on iOS 13 and newer.",
+			"user": {}
+		},
+		{
+			"canonical_url": "https://twitter.com/MedCalc/status/1070576197673742336",
+			"created_at": "2018-12-06T07:10:00Z",
+			"html": "🆙 Small housekeeping update to keep things running smoothly is now available with version 3.3.3!",
+			"source": {
+				"client_id": "ch.ossus.medcalx-news-posts",
+				"name": "MedCalX News"
+			},
+			"text": "🆙 Small housekeeping update to keep things running smoothly is now available with version 3.3.3!",
+			"user": {}
+		},
+		{
+			"canonical_url": "https://twitter.com/MedCalc/status/988327682319552512",
+			"created_at": "2018-04-23T12:05:00Z",
+			"html": "🆙 It took a while, but iPhone X support has now arrived with version 3.3.2. Enjoy!",
+			"source": {
+				"client_id": "ch.ossus.medcalx-news-posts",
+				"name": "MedCalX News"
+			},
+			"text": "🆙 It took a while, but iPhone X support has now arrived with version 3.3.2. Enjoy!",
+			"user": {}
+		},
+		{
+			"canonical_url": "https://twitter.com/MedCalc/status/882460579293650945",
+			"created_at": "2017-07-04T21:49:00Z",
+			"entities": {
+				"links": [
+					{
+						"len": 35,
+						"pos": 190,
+						"url": "http://lanthiermedicine.tumblr.com/"
+					}
+				]
+			},
+			"html": "🆙 Version 3.3 is available, now showing <b>web calculators</b> in search results that you can import for quick access. French users: enjoy the much extended info pages, courtesy <a href=\"http://lanthiermedicine.tumblr.com/\">Lanthier Medicine</a>.",
+			"source": {
+				"client_id": "ch.ossus.medcalx-news-posts",
+				"name": "MedCalX News"
+			},
+			"text": "🆙 Version 3.3 is available, now showing web calculators in search results that you can import for quick access. French users: enjoy the much extended info pages, courtesy Lanthier Medicine (http://lanthiermedicine.tumblr.com/).",
+			"user": {}
+		},
+		{
 			"canonical_url": "https://twitter.com/MedCalc/status/788617869202432000",
 			"created_at": "2016-10-19T23:48:00Z",
 			"html": "Holding out on MedCalc or even MedCalc Pro? Now is the time to upgrade, our unlock is <i>FREE</i> for the rest of October!",
@@ -115,14 +168,12 @@
 			"created_at": "2014-10-25T00:42:53Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Version 3.0.4, fixing Peak Flow not accepting perfectly fine input and showing a blank popup instead, is now available!</span>",
 			"id": "41920505",
-			"pagination_id": "41920505",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "Version 3.0.4, fixing Peak Flow not accepting perfectly fine input and showing a blank popup instead, is now available!",
-			"thread_id": "41920505",
 			"user": {}
 		},
 		{
@@ -130,29 +181,12 @@
 			"created_at": "2014-10-17T14:51:02Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">And here we go, version 3.0.3 should appear in the App Store in the next hours! Now with full support for the iPhone 6 and iOS 8, Touch-ID for the patient DB and three new formulas: BODEx, RIETE and Padua</span>",
 			"id": "41370899",
-			"pagination_id": "41370899",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "And here we go, version 3.0.3 should appear in the App Store in the next hours! Now with full support for the iPhone 6 and iOS 8, Touch-ID for the patient DB and three new formulas: BODEx, RIETE and Padua",
-			"thread_id": "41370899",
-			"user": {}
-		},
-		{
-			"canonical_url": "https://alpha.app.net/medcalc/post/41189780",
-			"created_at": "2014-10-15T14:52:51Z",
-			"deleted": "1",
-			"id": "41189780",
-			"is_deleted": true,
-			"pagination_id": "41189780",
-			"source": {
-				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
-				"link": "https://alpha.app.net",
-				"name": "Alpha"
-			},
-			"thread_id": "41189780",
 			"user": {}
 		},
 		{
@@ -160,110 +194,84 @@
 			"created_at": "2014-07-24T00:30:37Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Version 3.0.2 is now available, bringing back the Ottawa Ankle and Canadian C-Spine Rules plus 5 brand new formulas!</span>",
 			"id": "35210230",
-			"pagination_id": "35210230",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "Version 3.0.2 is now available, bringing back the Ottawa Ankle and Canadian C-Spine Rules plus 5 brand new formulas!",
-			"thread_id": "35210230",
 			"user": {}
 		},
 		{
 			"canonical_url": "https://alpha.app.net/medcalc/post/30544807",
 			"created_at": "2014-05-15T22:17:19Z",
 			"entities": {
-				"hashtags": [],
 				"links": [
 					{
 						"len": 48,
 						"pos": 98,
-						"text": "https://itunes.apple.com/app/medcalc/id806809930",
 						"url": "https://itunes.apple.com/app/medcalc/id806809930"
 					}
-				],
-				"mentions": []
+				]
 			},
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">We&#8217;re proud to announce something new. Something great!<br>MedCalc 3 has arrived, download for free: <a href=\"https://itunes.apple.com/app/medcalc/id806809930\">https://itunes.apple.com/app/medcalc/id806809930</a></span>",
 			"id": "30544807",
-			"machine_only": false,
-			"num_replies": 0,
-			"num_reposts": 1,
-			"num_stars": 2,
-			"pagination_id": "30544807",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "We’re proud to announce something new. Something great!\nMedCalc 3 has arrived, download for free: https://itunes.apple.com/app/medcalc/id806809930",
-			"thread_id": "30544807",
 			"user": {}
 		},
 		{
 			"canonical_url": "https://alpha.app.net/medcalc/post/30193978",
 			"created_at": "2014-05-10T20:51:14Z",
 			"entities": {
-				"hashtags": [],
 				"links": [
 					{
 						"len": 22,
 						"pos": 84,
-						"text": "https://t.co/6MS53qOsja",
 						"url": "https://t.co/6MS53qOsja"
 					}
-				],
-				"mentions": []
+				]
 			},
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">This well-researched article on MobiHealthNews about medical apps features MedCalc: <a href=\"https://t.co/6MS53qOsja\">https://t.co/6MS53qOsja</a></span>",
 			"id": "30193978",
-			"machine_only": false,
-			"num_replies": 0,
-			"num_reposts": 1,
-			"num_stars": 0,
-			"pagination_id": "30193978",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "This well-researched article on MobiHealthNews about medical apps features MedCalc: https://t.co/6MS53qOsja",
-			"thread_id": "30193978",
 			"user": {}
 		},
 		{
 			"canonical_url": "https://alpha.app.net/medcalc/post/29719446",
 			"created_at": "2014-05-03T22:36:41Z",
 			"entities": {
-				"hashtags": [],
 				"links": [
 					{
 						"len": 22,
 						"pos": 127,
-						"text": "http://itun.es/i6xX59F",
 						"url": "http://itun.es/i6xX59F"
 					}
-				],
-				"mentions": []
+				]
 			},
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">MedCalc (Pro) 2.7.5 is now available. It&#8217;s a bug fix release, fixing TASH on 64-bit devices, and a few stability improvements. <a href=\"http://itun.es/i6xX59F\">http://itun.es/i6xX59F</a></span>",
 			"id": "29719446",
-			"pagination_id": "29719446",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "MedCalc (Pro) 2.7.5 is now available. It’s a bug fix release, fixing TASH on 64-bit devices, and a few stability improvements. http://itun.es/i6xX59F",
-			"thread_id": "29719446",
 			"user": {}
 		},
 		{
 			"canonical_url": "https://alpha.app.net/medcalc/post/23145962",
 			"created_at": "2014-02-19T13:35:00Z",
 			"entities": {
-				"hashtags": [],
 				"links": [
 					{
 						"len": 23,
@@ -271,23 +279,16 @@
 						"text": "v3-tease-2014-02-19.png",
 						"url": "http://medcalcnews.ossus.ch/media/v3-tease-2014-02-19.png"
 					}
-				],
-				"mentions": []
+				]
 			},
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">The wait will be over soon! &#8212; <a href=\"http://medcalcnews.ossus.ch/media/v3-tease-2014-02-19.png\">v3-tease-2014-02-19.png</a></span>",
 			"id": "23145962",
-			"machine_only": false,
-			"num_replies": 0,
-			"num_reposts": 1,
-			"num_stars": 0,
-			"pagination_id": "23145962",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "The wait will be over soon! — http://medcalcnews.ossus.ch/media/v3-tease-2014-02-19.png",
-			"thread_id": "23145962",
 			"user": {}
 		},
 		{
@@ -295,41 +296,34 @@
 			"created_at": "2013-12-21T15:13:26Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Version 2.7.4 is now available. It&#8217;s a maintenance update with some basic iOS 7 support while we're hard at work on what you are all waiting for!</span>",
 			"id": "17900023",
-			"pagination_id": "17900023",
 			"source": {
 				"client_id": "QHhyYpuARCwurZdGuuR7zjDMHDRkwcKm",
 				"link": "http://tapbots.com/software/netbot",
 				"name": "Netbot for iOS"
 			},
 			"text": "Version 2.7.4 is now available. It’s a maintenance update with some basic iOS 7 support while we're hard at work on what you are all waiting for!",
-			"thread_id": "17900023",
 			"user": {}
 		},
 		{
 			"canonical_url": "https://alpha.app.net/medcalc/post/11844297",
 			"created_at": "2013-09-30T06:52:01Z",
 			"entities": {
-				"hashtags": [],
 				"links": [
 					{
 						"len": 19,
 						"pos": 121,
-						"text": "http://is.gd/xKnHud",
 						"url": "http://is.gd/xKnHud"
 					}
-				],
-				"mentions": []
+				]
 			},
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Lanthier 2013&#8211;17, the practical guide to internal medicine with links to relevant formulas in MedCalc, is now available: <a href=\"http://is.gd/xKnHud\">http://is.gd/xKnHud</a></span>",
 			"id": "11844297",
-			"pagination_id": "11844297",
 			"source": {
 				"client_id": "QHhyYpuARCwurZdGuuR7zjDMHDRkwcKm",
 				"link": "http://tapbots.com/software/netbot",
 				"name": "Netbot for iOS"
 			},
 			"text": "Lanthier 2013–17, the practical guide to internal medicine with links to relevant formulas in MedCalc, is now available: http://is.gd/xKnHud",
-			"thread_id": "11844297",
 			"user": {}
 		},
 		{
@@ -337,18 +331,12 @@
 			"created_at": "2013-06-20T03:46:11Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Version 2.7.3 with completed Portuguese translation is now available. Awesome work, Jairon!</span>",
 			"id": "6919507",
-			"machine_only": false,
-			"num_replies": 0,
-			"num_reposts": 1,
-			"num_stars": 0,
-			"pagination_id": "6919507",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "Version 2.7.3 with completed Portuguese translation is now available. Awesome work, Jairon!",
-			"thread_id": "6919507",
 			"user": {}
 		},
 		{
@@ -356,18 +344,13 @@
 			"created_at": "2013-06-07T13:52:41Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">We have surpassed 1 million downloads! Thank you everyone for calculating with us, you are great! &#127867;</span>",
 			"id": "6488353",
-			"machine_only": false,
-			"num_replies": 0,
 			"num_reposts": 2,
-			"num_stars": 0,
-			"pagination_id": "6488353",
 			"source": {
 				"client_id": "QHhyYpuARCwurZdGuuR7zjDMHDRkwcKm",
 				"link": "http://tapbots.com/software/netbot",
 				"name": "Netbot for iOS"
 			},
 			"text": "We have surpassed 1 million downloads! Thank you everyone for calculating with us, you are great! 🍻",
-			"thread_id": "6488353",
 			"user": {}
 		},
 		{
@@ -375,14 +358,12 @@
 			"created_at": "2013-05-22T18:33:14Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Here we go again, another update is live! Version 2.7.2 fixes an issue for those still on iOS 4.3.</span>",
 			"id": "5943382",
-			"pagination_id": "5943382",
 			"source": {
 				"client_id": "QHhyYpuARCwurZdGuuR7zjDMHDRkwcKm",
 				"link": "http://tapbots.com/software/netbot",
 				"name": "Netbot for iOS"
 			},
 			"text": "Here we go again, another update is live! Version 2.7.2 fixes an issue for those still on iOS 4.3.",
-			"thread_id": "5943382",
 			"user": {}
 		},
 		{
@@ -390,14 +371,12 @@
 			"created_at": "2013-05-10T19:42:32Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">Version 2.7.1 should be live now, fixing the crash-at-startup some users experienced. Sorry about that, let us know if you still experience problems!</span>",
 			"id": "5537416",
-			"pagination_id": "5537416",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "Version 2.7.1 should be live now, fixing the crash-at-startup some users experienced. Sorry about that, let us know if you still experience problems!",
-			"thread_id": "5537416",
 			"user": {}
 		},
 		{
@@ -405,29 +384,12 @@
 			"created_at": "2013-05-04T00:47:46Z",
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">We're inching in on the crash-at-startup problem! For those affected please turn off iCloud in the Settings App &#187; MedCalc for now. Sorry for the trouble. &#128542;</span>",
 			"id": "5321558",
-			"pagination_id": "5321558",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "We're inching in on the crash-at-startup problem! For those affected please turn off iCloud in the Settings App » MedCalc for now. Sorry for the trouble. 😞",
-			"thread_id": "5321558",
-			"user": {}
-		},
-		{
-			"canonical_url": "https://alpha.app.net/medcalc/post/5321527",
-			"created_at": "2013-05-04T00:45:58Z",
-			"deleted": "1",
-			"id": "5321527",
-			"is_deleted": true,
-			"pagination_id": "5321527",
-			"source": {
-				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
-				"link": "https://alpha.app.net",
-				"name": "Alpha"
-			},
-			"thread_id": "5321527",
 			"user": {}
 		},
 		{
@@ -450,33 +412,23 @@
 					{
 						"len": 22,
 						"pos": 102,
-						"text": "http://itun.es/i6xX9CJ",
 						"url": "http://itun.es/i6xX9CJ"
 					}
-				],
-				"mentions": []
+				]
 			},
 			"html": "<span itemscope=\"https://app.net/schemas/Post\">MedCalc 2.7 is out: 15 new formulas, including an advanced ABG analyzer and CAM-ICU. Plus Portuguese! <a href=\"http://itun.es/i6xX9CJ\">http://itun.es/i6xX9CJ</a>  <span data-hashtag-name=\"ios\" itemprop=\"hashtag\">#ios</span> <span data-hashtag-name=\"app\" itemprop=\"hashtag\">#app</span></span>",
 			"id": "5286416",
-			"machine_only": false,
-			"num_replies": 0,
-			"num_reposts": 1,
-			"num_stars": 0,
-			"pagination_id": "5286416",
 			"source": {
 				"client_id": "caYWDBvjwt2e9HWMm6qyKS6KcATHUkzQ",
 				"link": "https://alpha.app.net",
 				"name": "Alpha"
 			},
 			"text": "MedCalc 2.7 is out: 15 new formulas, including an advanced ABG analyzer and CAM-ICU. Plus Portuguese! http://itun.es/i6xX9CJ  #ios #app",
-			"thread_id": "5286416",
 			"user": {}
 		}
 	],
 	"meta": {
 		"code": 200,
-		"max_id": "41920505",
-		"min_id": "5286416",
-		"more": true
+		"more": false
 	}
 }
